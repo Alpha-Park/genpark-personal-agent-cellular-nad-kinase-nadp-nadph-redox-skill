@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-cellular-nad-kinase-nadp-nadph-redox-skill",
+  "version": "1.0.0",
+  "description": "NADK NAD kinase catalytic velocity, NADP+/NADPH antioxidant reserve & glutathione reductase flux index.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "assess_nadk_nadph_redox_flux",
+      "description": "NADK NAD kinase catalytic velocity, NADP+/NADPH antioxidant reserve & glutathione reductase flux index.",
+      "sample_input": {
+        "nadk_activity_u_mg": 1.45,
+        "nadph_umol_l": 18.5,
+        "nadp_plus_umol_l": 5.2,
+        "reduced_gsh_to_gssg_ratio": 32.0
+      }
+    }
+  ]
+}
